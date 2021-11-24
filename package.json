@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "firebase serve --token $MENDEZFB",
+    "deploy":"firebase deploy --token $MENDEZFB"
   },
   "repository": {
     "type": "git",

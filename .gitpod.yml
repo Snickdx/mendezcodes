@@ -2,4 +2,4 @@ tasks:
   - init: |
       npm install
     command: |
-      npm serve
+      npm start
